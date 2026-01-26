@@ -1,0 +1,52 @@
+h1{
+    padding-top: 130px;
+    text-align: center;
+    color: #1FECFF;
+    font-family: "covered by your grace", cursive;
+}
+
+.header{
+    margin: 30px auto 20px;
+    height: 300px;
+    /*background-color: #C80909;*/
+    background-image: url(./pexels-jacobyavin-4085266.jpg);
+    background-size: cover;
+
+}
+
+body{
+    background-color:#9C0707;
+    opacity: 75%;
+}
+
+#H2{
+    margin:0 auto 0;
+    padding: 150px;
+    display: flex;
+}
+
+#H2_1{
+    justify-content: left;
+    display: flex;
+    width:320px;
+    height:auto;
+
+}
+
+#H2_2{
+    justify-content: right;
+    display: flex;
+    width: 600px;
+    height:auto;
+    padding-left: 200px;
+}
+
+body{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: left;
+    padding-left: 30px;
+}
