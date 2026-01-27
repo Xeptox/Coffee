@@ -1,46 +1,36 @@
-*{
-    box-sizing: border-box;
-}
-.grid-container{
-    display:grid;
-    grid-template-areas:
-    "H2Block"
-    "about-main";
-    gap: 10px;
-}
+
 h1{
     padding-top: 130px;
     text-align: center;
     color: #1FECFF;
     font-family: "covered by your grace", cursive;
 }
+
 h2{
+    display: block;
     border: 1px solid transparent;
     border-radius: 50%;
     background-color: teal;
     text-align: center;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .header{
     margin: 30px auto 20px;
     height: 300px;
-    /*background-color: #C80909;*/
     background-image: url(./pexels-jacobyavin-4085266.jpg);
     background-size: cover;
-
 }
 
 body{
     font-size: 20px;
     font-family: "Raleway", sans-serif;
-    background-color:orangered;
+    background-color:#803a09;
     opacity: 75%;
 }
 
 #H2Block{
-    grid-area: H2Block;
     margin: 0 auto;
     height:300px;
     width:800px;
@@ -65,44 +55,37 @@ body{
     height:160px;
     margin-top: 70px;
     margin-right: 50px;
-
 }
 
 .about-main{
-    grid-area: about-main;
-    margin: 0;
-    height: 206px;
+    margin: 10px auto 550px;
+    height: auto;
     width:auto;
-
+    border: 1px solid black;
 
 }
 
 .about_coffee_txt{
-    margin-left:200px;
+    display: inline;
+    margin-left:10%;
     width: 500px;
+    height: auto;
+    float: left;
+}
+
+.about-img{
+    display: inline;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    width: 200px;
+    height:auto;
     float: left;
 }
 
 .about_coffee_img{
-    margin-right:200px;
+    display: inline;
+    margin-right:10%;
     float: right;
 }
 
-/*@media screen and (max-width: 600px) {*/
-/*    body {*/
-/*        background-color: lightblue;*/
-/*    }*/
-/*}*/
-@media (min-width: 1000px) {
-    .header {
-        grid-area: 1 / span 6;
-    }
-
-    .h2Block {
-        grid-area: 2 / span 1;
-    }
-
-    .about-main {
-        grid-area: 3 / span 4;
-    }
-}
