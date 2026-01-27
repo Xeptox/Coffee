@@ -1,8 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.grid-container{
+    display:grid;
+    grid-template-areas:
+    "H2Block"
+    "about-main";
+    gap: 10px;
+}
 h1{
     padding-top: 130px;
     text-align: center;
     color: #1FECFF;
     font-family: "covered by your grace", cursive;
+}
+h2{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: teal;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
 }
 
 .header{
@@ -15,38 +33,76 @@ h1{
 }
 
 body{
-    background-color:#9C0707;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    background-color:orangered;
     opacity: 75%;
 }
 
-#H2{
-    margin:0 auto 0;
-    padding: 150px;
-    display: flex;
+#H2Block{
+    grid-area: H2Block;
+    margin: 0 auto;
+    height:300px;
+    width:800px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: teal;
 }
 
-#H2_1{
-    justify-content: left;
-    display: flex;
-    width:320px;
-    height:auto;
+#H2Image{
+    float: left;
+    width: 200px;
+    height: 268px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+#H2Text{
+    float: right;
+    width: 400px;
+    height:160px;
+    margin-top: 70px;
+    margin-right: 50px;
 
 }
 
-#H2_2{
-    justify-content: right;
-    display: flex;
-    width: 600px;
-    height:auto;
-    padding-left: 200px;
+.about-main{
+    grid-area: about-main;
+    margin: 0;
+    height: 206px;
+    width:auto;
+
+
 }
 
-body{
-    font-size: 20px;
-    font-family: "Raleway", sans-serif;
+.about_coffee_txt{
+    margin-left:200px;
+    width: 500px;
+    float: left;
 }
 
-p{
-    text-align: left;
-    padding-left: 30px;
+.about_coffee_img{
+    margin-right:200px;
+    float: right;
+}
+
+/*@media screen and (max-width: 600px) {*/
+/*    body {*/
+/*        background-color: lightblue;*/
+/*    }*/
+/*}*/
+@media (min-width: 1000px) {
+    .header {
+        grid-area: 1 / span 6;
+    }
+
+    .h2Block {
+        grid-area: 2 / span 1;
+    }
+
+    .about-main {
+        grid-area: 3 / span 4;
+    }
 }
