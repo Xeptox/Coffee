@@ -5,7 +5,7 @@
     display:grid;
     grid-template-areas:
     "H2Block"
-    "about-main";
+    "main-content";
     gap: 10px;
 }
 h1{
@@ -71,7 +71,7 @@ body{
 .about-main{
     grid-area: about-main;
     margin: 0;
-    height: 206px;
+    height:100%;
     width:auto;
 
 
@@ -80,6 +80,7 @@ body{
 .about_coffee_txt{
     margin-left:200px;
     width: 500px;
+    height: auto;
     float: left;
 }
 
