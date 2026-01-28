@@ -61,8 +61,6 @@ body{
     margin: 10px auto 550px;
     height: auto;
     width:auto;
-    border: 1px solid black;
-
 }
 
 .about_coffee_txt{
@@ -75,8 +73,8 @@ body{
 
 .about-img{
     display: inline;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:3em;
+    margin-right:3em;
     margin-bottom: 5%;
     width: 200px;
     height:auto;
