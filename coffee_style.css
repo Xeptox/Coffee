@@ -1,12 +1,12 @@
 
-h1{
+h1 {
     padding-top: 130px;
     text-align: center;
     color: #1FECFF;
     font-family: "covered by your grace", cursive;
 }
 
-h2{
+h2 {
     display: block;
     border: 1px solid transparent;
     border-radius: 50%;
@@ -16,84 +16,97 @@ h2{
     padding-top: 12px;
 }
 
-.header{
+.header {
     margin: 30px auto 20px;
     height: 300px;
     background-image: url(./pexels-jacobyavin-4085266.jpg);
     background-size: cover;
 }
 
-body{
+body {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
     background-color:#803a09;
     opacity: 75%;
 }
 
-.topnav{
-    position: relative;
-    margin-top: 20px;
+.top-nav {
     display: flex;
+    flex-wrap: wrap;
+    /*box-sizing: border-box;*/
+    /*height: 70px;*/
     background-color: teal;
-    list-style:none;
-    box-sizing: border-box;
-    height: 70px;
     border-radius: 15px;
-    padding-left: 20vw;
-    padding-right: 20vw;
-    padding-bottom: 10px;
-    /*justify-content: space-between;*/
     justify-content: center;
 }
-.topnav li{
-    padding-top:22px;
-    height: 50px;
-    width: 200px;
+
+.top nav ul {
+    align-items: center;
+    height: 70px;
+    width: 120px;
+}
+
+.top-nav li {
+    padding-top: 24px;
     text-align: center;
+    height: 50px;
+    width: 120px;
+    list-style:none;
+}
+
+.top-nav a {
+    text-decoration: none;
+
+    width: 120px;
     color: black;
 }
 
-.topnav li:hover{
+.top-nav li:hover {
     background-color: #803a09;
     height: 50px;
-    width: 200px;
+    width: 120px;
 }
 
-#H2Block{
+#intro-main{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    height:300px;
     width:800px;
+    height:300px;
     border: 1px solid transparent;
     border-radius: 40px;
     background-color: teal;
 }
 
-#H2Image{
-    float: left;
+#intro-image {
+    position: absolute;
+    order: 1;
+    flex-shrink: 1;
     width: 200px;
     height: 268px;
     border: 1px solid transparent;
     border-radius: 30px;
-    margin-top: 16px;
-    margin-left: 50px;
+    top: 16px;
+    left: 50px;
 }
 
-#H2Text{
-    float: right;
+#intro-text {
+    position: absolute;
+    order: 2;
     width: 400px;
     height:160px;
-    margin-top: 70px;
-    margin-right: 50px;
+    top: 50px;
+    right: 50px;
 }
 
-.about-main{
+.about-main {
     margin: 10px auto 550px;
     height: auto;
     width:auto;
 }
 
-.about_coffee_txt{
+.about_coffee_txt {
     display: inline;
     margin-left:10%;
     width: 500px;
@@ -101,7 +114,7 @@ body{
     float: left;
 }
 
-.about-img{
+.about-img {
     display: inline;
     margin-left:3em;
     margin-right:3em;
@@ -111,7 +124,7 @@ body{
     float: left;
 }
 
-.about_coffee_img{
+.about_coffee_img {
     display: inline;
     margin-right:10%;
     float: right;
