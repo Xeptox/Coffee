@@ -1,28 +1,4 @@
 
-h1{
-    padding-top: 130px;
-    text-align: center;
-    color: #1FECFF;
-    font-family: "covered by your grace", cursive;
-}
-
-h2{
-    display: block;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: teal;
-    text-align: center;
-    height: 50px;
-    padding-top: 12px;
-}
-
-.header{
-    margin: 30px auto 20px;
-    height: 300px;
-    background-image: url(./pexels-jacobyavin-4085266.jpg);
-    background-size: cover;
-}
-
 body{
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -30,60 +6,95 @@ body{
     opacity: 75%;
 }
 
-#H2Block{
-    margin: 0 auto;
-    height:300px;
-    width:800px;
+header{
+    /*margin: 30px auto 20px;*/
+    /*height: 300px;*/
+    background-image: url(./pexels-jacobyavin-4085266.jpg);
+    background-size: cover;
+}
+
+h1{
+    /*padding-top: 130px;*/
+    /*text-align: center;*/
+    color: #1FECFF;
+    font-family: "covered by your grace", cursive;
+}
+
+.row .coffee {
+    width: 300px;
+    height: 368px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transform: rotate(90deg);
+}
+
+.row p {
+    color: black;
+}
+
+.col p {
+    color: black;
+}
+/*h2{*/
+/*    display: block;*/
+/*    border: 1px solid transparent;*/
+/*    border-radius: 50%;*/
+/*    background-color: teal;*/
+/*    text-align: center;*/
+/*    height: 50px;*/
+/*    padding-top: 12px;*/
+/*}*/
+
+
+
+
+
+.header-2 {
+    /*margin: 0 auto;*/
+    /*height:300px;*/
+    /*width:800px;*/
     border: 1px solid transparent;
     border-radius: 40px;
     background-color: teal;
 }
 
-#H2Image{
-    float: left;
-    width: 200px;
-    height: 268px;
-    border: 1px solid transparent;
+a img {
     border-radius: 30px;
-    margin-top: 16px;
-    margin-left: 50px;
-}
-
-#H2Text{
-    float: right;
-    width: 400px;
-    height:160px;
-    margin-top: 70px;
-    margin-right: 50px;
-}
-
-.about-main{
-    margin: 10px auto 550px;
+    width: 100%;
     height: auto;
-    width:auto;
 }
+/*.header-2 img {*/
+/*    border-radius: 30px;*/
+/*    width: 200px;*/
+/*}*/
 
-.about_coffee_txt{
-    display: inline;
-    margin-left:10%;
-    width: 500px;
-    height: auto;
-    float: left;
-}
+/*.about-main{*/
+/*    margin: 10px auto 550px;*/
+/*    height: auto;*/
+/*    width:auto;*/
+/*}*/
 
-.about-img{
-    display: inline;
-    margin-left:3em;
-    margin-right:3em;
-    margin-bottom: 5%;
-    width: 200px;
-    height:auto;
-    float: left;
-}
+/*.about_coffee_txt{*/
+/*    display: inline;*/
+/*    margin-left:10%;*/
+/*    width: 500px;*/
+/*    height: auto;*/
+/*    float: left;*/
+/*}*/
 
-.about_coffee_img{
-    display: inline;
-    margin-right:10%;
-    float: right;
-}
+/*.about-img{*/
+/*    display: inline;*/
+/*    margin-left:3em;*/
+/*    margin-right:3em;*/
+/*    margin-bottom: 5%;*/
+/*    width: 200px;*/
+/*    height:auto;*/
+/*    float: left;*/
+/*}*/
+
+/*.about_coffee_img{*/
+/*    display: inline;*/
+/*    margin-right:10%;*/
+/*    float: right;*/
+/*}*/
 
