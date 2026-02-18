@@ -1,131 +1,119 @@
 
-h1 {
-    padding-top: 130px;
-    text-align: center;
-    color: #1FECFF;
-    font-family: "covered by your grace", cursive;
+body{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    background-color:#803a09;
+    opacity: 75%;
 }
 
-h2 {
-    display: block;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: teal;
-    text-align: center;
-    height: 50px;
-    padding-top: 12px;
-}
-
-.header {
+header{
     margin: 30px auto 20px;
     height: 300px;
     background-image: url(./pexels-jacobyavin-4085266.jpg);
     background-size: cover;
+    border-radius: 30px;
 }
 
-body {
-    font-size: 20px;
-    font-family: "Raleway", sans-serif;
-    background-color: #803a09;
-    opacity: 75%;
+h1{
+    padding-top: 15%;
+    font-size: 3rem;
+    color: #1FECFF;
+    font-family: "covered by your grace", cursive;
 }
 
-.top-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    flex-flow: row wrap;
-    height: 7vh;
-    /*background-color: teal;*/
-    border-radius: 15px;
-    justify-content: center;
-    column-gap: 1em;
-    row-gap: 1em;
+.coffee {
+    width: 300px;
+    height: 50%px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transform: rotate(90deg);
 }
 
-.top-nav li {
-    background-color: teal;
-    display: flex;
-    width: 120px;
-    height: 7vh;
-    text-align: center;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-nav a {
-    text-decoration: none;
+.row p {
     color: black;
 }
 
-.top-nav li:hover {
-    background-color: #803a09;
-    width: 120px;
-    height: 7vh;
-
+.col p {
+    color: black;
 }
 
-#intro-main {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 800px;
-    height: 300px;
+.img-spec {
+    /*width:282px;*/
+    /*height: 193px;*/
+    height: 25%;
+    /*margin-bottom: 12rem;*/
+}
+
+.img-spec img {
+    height: 25%;
+}
+.par {
+    height: 65%;
+}
+
+.div-pad {
+    padding-bottom: 150px;
+}
+/*h2{*/
+/*    display: block;*/
+/*    border: 1px solid transparent;*/
+/*    border-radius: 50%;*/
+/*    background-color: teal;*/
+/*    text-align: center;*/
+/*    height: 50px;*/
+/*    padding-top: 12px;*/
+/*}*/
+
+
+
+
+
+.header-2 {
+    /*margin: 0 auto;*/
+    /*height:300px;*/
+    /*width:800px;*/
     border: 1px solid transparent;
     border-radius: 40px;
     background-color: teal;
 }
 
-#intro-image {
-    position: absolute;
-    order: 1;
-    flex-shrink: 1;
-    width: 200px;
-    height: 268px;
-    border: 1px solid transparent;
+a img {
     border-radius: 30px;
-    top: 16px;
-    left: 50px;
-}
-
-#intro-text {
-    position: absolute;
-    order: 2;
-    width: 400px;
-    height: 160px;
-    top: 50px;
-    right: 50px;
-}
-
-.about-main {
-    margin: 10px auto 550px;
+    width: 100%;
     height: auto;
-    width: auto;
 }
+/*.header-2 img {*/
+/*    border-radius: 30px;*/
+/*    width: 200px;*/
+/*}*/
 
-.about_coffee_txt {
-    display: inline;
-    margin-left: 10%;
-    width: 500px;
-    height: auto;
-    float: left;
-}
+/*.about-main{*/
+/*    margin: 10px auto 550px;*/
+/*    height: auto;*/
+/*    width:auto;*/
+/*}*/
 
-.about-img {
-    display: inline;
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-bottom: 5%;
-    width: 200px;
-    height: auto;
-    float: left;
-}
+/*.about_coffee_txt{*/
+/*    display: inline;*/
+/*    margin-left:10%;*/
+/*    width: 500px;*/
+/*    height: auto;*/
+/*    float: left;*/
+/*}*/
 
-.about_coffee_img {
-    display: inline;
-    margin-right: 10%;
-    float: right;
-}
+/*.about-img{*/
+/*    display: inline;*/
+/*    margin-left:3em;*/
+/*    margin-right:3em;*/
+/*    margin-bottom: 5%;*/
+/*    width: 200px;*/
+/*    height:auto;*/
+/*    float: left;*/
+/*}*/
+
+/*.about_coffee_img{*/
+/*    display: inline;*/
+/*    margin-right:10%;*/
+/*    float: right;*/
+/*}*/
 
