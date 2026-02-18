@@ -33,38 +33,37 @@ body {
 .top-nav {
     display: flex;
     flex-wrap: wrap;
-    /*box-sizing: border-box;*/
-    /*height: 70px;*/
-    background-color: teal;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    height: 7vh;
+    /*background-color: teal;*/
     border-radius: 15px;
     justify-content: center;
-}
-
-.top-nav ul {
-    align-items: center;
-    height: 70px;
-    width: 120px;
+    column-gap: 1em;
+    row-gap: 1em;
 }
 
 .top-nav li {
-    padding-top: 24px;
-    text-align: center;
-    height: 50px;
+    background-color: teal;
+    display: flex;
     width: 120px;
+    height: 7vh;
+    text-align: center;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-nav a {
     text-decoration: none;
-
-    width: 120px;
     color: black;
 }
 
 .top-nav li:hover {
     background-color: #803a09;
-    height: 50px;
     width: 120px;
+    height: 7vh;
+
 }
 
 #intro-main {
